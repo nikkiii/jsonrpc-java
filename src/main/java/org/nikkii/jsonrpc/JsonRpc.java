@@ -96,20 +96,6 @@ public class JsonRpc {
 	}
 	
 	/**
-	 * Register a new method
-	 * 
-	 * @param method The method name
-	 * @param callback The method callback
-	 */
-	public void registerMethod(String method, Function<JsonRpcRequest, JsonElement> callback) {
-		if (method.startsWith("rpc.")) {
-			throw new IllegalArgumentException("The rpc namespace is reserved for system extensions.");
-		}
-		
-		methods.put(method, callback);
-	}
-	
-	/**
 	 * Execute a JsonRpc request with the data from the reader and return the response
 	 * 
 	 * @param reader The reader to read the JSON value from
