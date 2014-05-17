@@ -7,7 +7,7 @@ A simple JSON-RPC library for the JSON-RPC 2.0 spec using Gson
 
 jsonrpc-java
 
-Copyright (C) 2014  Nikki <nospam at nikkii.us>
+Copyright (C) 2014  Nikki
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
